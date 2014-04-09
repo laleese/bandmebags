@@ -1,6 +1,6 @@
 application: bandmebags
 version: 1
-runtime: python27
+runtime: python
 api_version: 1
 threadsafe: yes
 
@@ -16,5 +16,6 @@ handlers:
 
 skip_files:
 - ^(.*/)?app\.yaml
-- \.gitignore
+- ^README
+- ^\.gitignore
 - ^\.git/.*
